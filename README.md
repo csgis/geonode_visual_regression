@@ -1,4 +1,8 @@
-# Geonode visual regression testing
+# GeoNode visual regression testing
+
+<img width="1173" alt="diff" src="https://user-images.githubusercontent.com/20478652/64116178-2236c200-cd81-11e9-92f7-6568f25e60d1.png">
+
+
 
 Using backstopjs we can get more security how changes to CSS or JS will affect the GeoNode GUI.
 
