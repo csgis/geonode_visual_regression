@@ -4,11 +4,7 @@
 
 
 
-Using backstopjs we can get more security how changes to CSS or JS will affect the GeoNode GUI.
-
-Because changes to frontend libraries are expected to bring visual changes, this test is aimed at a before-and-after comparison. However, it is also possible to use an external website as a reference. Furthermore to integrate the tests in CircleCi.
-
-We're using local paver set up for development / testing. Of course, you could also use our local docker stack or even your production environment as a test environment.
+Using backstopjs we can get more security how changes to CSS or JS will affect the GeoNode GUI by before-and-after comparison.
 
 ## Installation
 
@@ -36,6 +32,8 @@ yarn clean
 
 ## Usage
 
+We're using local paver set up for development / testing. Of course, you could also use your local docker stack or even your production environment as a test environment.
+
 1. Start you local GeoNode environment `paver setup_data && paver start`
 2. Set base URL in .env (default: http://localhost:8000)
 3. Login to your GeoNode and save the cookie to `./backstop_data/engine_scripts
@@ -52,6 +50,21 @@ Visit the official BackstopJS docs for more: https://github.com/garris/BackstopJ
 1. The manually saving of Cookies could be automated
 2. The paver test server is sometimes slow. Hence `asyncCaptureLimit` has been set to a low value `1` to not get timeouts and a locked database
 3. Delays should be removed and instead DOM selectors used for testing when some ajax request has finished.
+
+## Current tests
+
+Some tests expect the `paver setup_data`to be present.
+
+- home
+- maps
+- create Map
+- documents
+- layers
+- layer detail (simple point demo data)
+- layer upload
+- metadata wizard
+- people
+- remote services
 
 ## Writing new Tests
 
