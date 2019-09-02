@@ -18,6 +18,7 @@
     "dotenv": "^8.1.0",
     "minimist": "^1.2.0",
     "phantomjs": "^2.1.7",
-    "rimraf": "^3.0.0"
+    "rimraf": "^3.0.0",
+    "tunnel-agent": "^0.6.0"
   }
 }
