@@ -1,0 +1,22 @@
+{
+  "name": "geonode_visual_testing",
+  "version": "1.0.0",
+  "description": "A visual regression test for geonode",
+  "main": "index.js",
+  "author": "toni.schoenbuuchner@csgis.de",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "approve": "backstop approve --configPath=backstopConfig.js",
+    "test": "backstop test --configPath=backstopConfig.js",
+    "ref": "backstop reference --configPath=backstopConfig.js",
+    "clean": "rimraf backstop_data/bitmaps_test/* backstop_data/html_report/* backstop_data/bitmaps_reference/*"
+  },
+  "dependencies": {
+    "backstopjs": "^4.1.12",
+    "dotenv": "^8.1.0",
+    "minimist": "^1.2.0",
+    "phantomjs": "^2.1.7",
+    "rimraf": "^3.0.0"
+  }
+}
