@@ -55,8 +55,6 @@ Visit the official BackstopJS docs for more: https://github.com/garris/BackstopJ
 
 ## Current tests
 
-Some tests expect the `paver setup_data`to be present.
-
 - home
 - maps
 - create Map
@@ -67,6 +65,8 @@ Some tests expect the `paver setup_data`to be present.
 - metadata wizard
 - people
 - remote services
+
+(Some tests expect the `paver setup_data`to be present.)
 
 ## Writing new Tests
 
