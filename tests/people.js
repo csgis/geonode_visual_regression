@@ -9,7 +9,8 @@ const DesktopPage = {
         }
     ],
     cookiePath: "backstop_data/engine_scripts/cookies.json",
-    readySelector: "footer"
+    readySelector: "footer",
+    delay: 2000
 };
 
 const MobilePage = {
@@ -22,7 +23,8 @@ const MobilePage = {
             height: 480
         }
     ],
-    readySelector: "footer"
+    readySelector: "footer",
+    delay: 2000
 };
 
 const scenarios = [

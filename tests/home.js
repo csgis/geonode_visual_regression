@@ -17,6 +17,7 @@ const DesktopPage = {
     cookiePath: "backstop_data/engine_scripts/cookies.json",
     postInteractionWait: 2000,
     readySelector: "footer",
+    hoverSelectors: ['div.col-xs-4.col-sm-3.col-md-2.col-lg-1:nth-child(1) h4']
 };
 
 const MobilePage = {

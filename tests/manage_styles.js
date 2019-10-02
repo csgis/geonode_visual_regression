@@ -1,6 +1,6 @@
 const DesktopPage = {
-    label: "GeoNode Documents – Desktop",
-    url: process.env.BASEURL+"/documents/?limit=20&offset=0",
+    label: "GeoNode Manage Styles – Desktop",
+    url: process.env.BASEURL+"/gs/geonode:san_andres_y_providencia_poi/style/manage",
     viewports: [
         {
             label: "desktop",
@@ -10,17 +10,17 @@ const DesktopPage = {
     ],
     readySelector: "footer",
     onReadyScript: "puppet/onReady.js",
-    clickSelectors: ['nav.filter:nth-child(1) h4 a'],
+    clickSelector: ['.multiselect'],
     postInteractionWait: 1000,
     delay: 2000,
     cookiePath: "backstop_data/engine_scripts/cookies.json"
 };
 
 const MobilePage = {
-    label: "GeoNode Documents (should show Login)- Mobile ",
-    url: process.env.BASEURL+"/documents/?limit=20&offset=0",
+    label: "GeoNode Manage Styles - Mobile ",
+    url: process.env.BASEURL+"/gs/geonode:san_andres_y_providencia_poi/style/manage",
     readySelector: "footer",
-    delay: 2000
+    delay: 2000,
     viewports: [
         {
             label: "mobile",

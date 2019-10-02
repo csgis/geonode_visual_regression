@@ -10,8 +10,16 @@ const DesktopPage = {
     ],
     cookiePath: "backstop_data/engine_scripts/cookies.json",
     delay: 5000,
-    readySelector: "footer"
-};
+    clickSelectors: ['nav.filter:nth-child(8) h4 a','#date_start li input'],
+    postInteractionWait: 1000,
+    "keyPressSelectors": [
+      {
+        "selector": "#date_start li input",
+        "keyPress": "1"
+      }
+    ],
+    readySelector: "footer",
+  };
 
 const MobilePage = {
     label: "GeoNode Layers - Mobile ",

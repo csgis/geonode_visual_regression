@@ -12,6 +12,7 @@ const layerUploadScenarios = require('./tests/layerUpload');
 const metaWizardScenarios = require('./tests/metaWizard');
 const documentScenarios = require('./tests/documents');
 const remoteServiceScenarios = require('./tests/remoteService');
+const manageStylesScenarios = require('./tests/manage_styles');
 
 const scenarios = commonScenario.concat(
   homeScenarios,
@@ -23,7 +24,8 @@ const scenarios = commonScenario.concat(
   layerUploadScenarios,
   metaWizardScenarios,
   remoteServiceScenarios,
-  documentScenarios
+  documentScenarios,
+  manageStylesScenarios
 );
 
 module.exports = {
