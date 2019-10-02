@@ -20,7 +20,7 @@ const MobilePage = {
     label: "GeoNode Documents (should show Login)- Mobile ",
     url: process.env.BASEURL+"/documents/?limit=20&offset=0",
     readySelector: "footer",
-    delay: 2000
+    delay: 2000,
     viewports: [
         {
             label: "mobile",
