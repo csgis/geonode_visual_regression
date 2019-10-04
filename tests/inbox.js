@@ -1,6 +1,6 @@
 const DesktopPage = {
-    label: "GeoNode Layer Upload - Desktop",
-    url: process.env.BASEURL+"/layers/upload",
+    label: "GeoNode Inbox - Desktop",
+    url: process.env.BASEURL+"/messages/inbox/",
     viewports: [
         {
             label: "desktop",
@@ -10,18 +10,12 @@ const DesktopPage = {
     ],
     cookiePath: "backstop_data/engine_scripts/cookies.json",
     readySelector: "footer",
-    "keyPressSelectors": [
-      {
-        "selector": ".select2-search__field",
-        "keyPress": "a"
-      }
-    ],
-    postInteractionWait: 1000,
+    delay: 2000
 };
 
 const MobilePage = {
-    label: "GeoNode Layer Upload - Mobile ",
-    url: process.env.BASEURL+"/layers/upload",
+    label: "GeoNode Inbox - Mobile ",
+    url: process.env.BASEURL+"/messages/inbox/",
     viewports: [
         {
             label: "mobile",
@@ -30,6 +24,8 @@ const MobilePage = {
         }
     ],
     cookiePath: "backstop_data/engine_scripts/cookies.json",
+    readySelector: "footer",
+    delay: 2000
 };
 
 const scenarios = [

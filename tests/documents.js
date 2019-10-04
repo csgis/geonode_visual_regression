@@ -11,7 +11,7 @@ const DesktopPage = {
     readySelector: "footer",
     onReadyScript: "puppet/onReady.js",
     clickSelectors: ['nav.filter:nth-child(1) h4 a'],
-    postInteractionWait: 1000,
+    postInteractionWait: 5000,
     delay: 2000,
     cookiePath: "backstop_data/engine_scripts/cookies.json"
 };

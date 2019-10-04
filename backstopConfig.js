@@ -4,6 +4,7 @@ dotenv.config();
 const commonScenario = require('./tests/_common');
 const homeScenarios = require('./tests/home');
 const layersScenarios = require('./tests/layers');
+const layersSortScenarios = require('./tests/layers_sort');
 const mapsScenarios = require('./tests/maps');
 const peopleScenarios = require('./tests/people');
 const createMapScenarios = require('./tests/createMap');
@@ -13,10 +14,14 @@ const metaWizardScenarios = require('./tests/metaWizard');
 const documentScenarios = require('./tests/documents');
 const remoteServiceScenarios = require('./tests/remoteService');
 const manageStylesScenarios = require('./tests/manage_styles');
+const activityScenarios = require('./tests/activity');
+const inboxScenarios = require('./tests/inbox');
+const monitoringScenarios = require('./tests/monitoring');
 
 const scenarios = commonScenario.concat(
   homeScenarios,
   layersScenarios,
+  layersSortScenarios,
   mapsScenarios,
   peopleScenarios,
   singleLayerScenarios,
@@ -25,7 +30,9 @@ const scenarios = commonScenario.concat(
   metaWizardScenarios,
   remoteServiceScenarios,
   documentScenarios,
-  manageStylesScenarios
+  manageStylesScenarios,
+  inboxScenarios,
+  monitoringScenarios
 );
 
 module.exports = {

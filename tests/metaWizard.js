@@ -10,8 +10,8 @@ const DesktopPage = {
     ],
     cookiePath: "backstop_data/engine_scripts/cookies.json",
     clickSelectors: ['#second'],
-    postInteractionWait: 2000,
-    delay: 5000,
+    postInteractionWait: 3000,
+    delay: 2000,
     readySelector: "footer"
 };
 
@@ -25,7 +25,8 @@ const MobilePage = {
             height: 480
         }
     ],
-    delay: 5000,
+    postInteractionWait: 3000,
+    delay: 2000,
     readySelector: "footer",
     cookiePath: "backstop_data/engine_scripts/cookies.json",
 };

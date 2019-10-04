@@ -1,7 +1,7 @@
 [
   {
     "domain": "localhost",
-    "expirationDate": 1598802181.760825,
+    "expirationDate": 1601634881.682953,
     "hostOnly": true,
     "httpOnly": false,
     "name": "csrftoken",
@@ -10,7 +10,7 @@
     "secure": false,
     "session": false,
     "storeId": "0",
-    "value": "dr50qhH631aRawKEbtlxDxQZtbNbd1pgcA4PY3JTre2yepADQvf00ddcbnj68IsG",
+    "value": "CFS3po4cRCp91alnOGE3O3BAtljf4BiQoxSlbGFq2D6UwOvdCoDWt8xrLIXQxDju",
     "id": 1
   },
   {
@@ -23,7 +23,7 @@
     "secure": false,
     "session": true,
     "storeId": "0",
-    "value": "75zr0q6kyz8fqc5mmhumjhzl8pguyum8",
+    "value": "ad7qe6mvc6cimuh8no4gcjl2d6hmpuan",
     "id": 2
   }
 ]

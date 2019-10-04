@@ -4,7 +4,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Home_-_Desktop_0_document_0_desktop.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_GeoNode_Home_-_Desktop_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_Home_-_Desktop_0_document_0_desktop.png",
         "selector": "document",
         "fileName": "geonode_regression_tests_GeoNode_Home_-_Desktop_0_document_0_desktop.png",
         "label": "GeoNode Home - Desktop",
@@ -18,15 +18,17 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "0.00"
-        }
+          "misMatchPercentage": "1.07",
+          "analysisTime": 212
+        },
+        "diffImage": "../bitmaps_test/20191004-125900/failed_diff_geonode_regression_tests_GeoNode_Home_-_Desktop_0_document_0_desktop.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Home_-_Mobile__0_document_0_mobile.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_GeoNode_Home_-_Mobile__0_document_0_mobile.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_Home_-_Mobile__0_document_0_mobile.png",
         "selector": "document",
         "fileName": "geonode_regression_tests_GeoNode_Home_-_Mobile__0_document_0_mobile.png",
         "label": "GeoNode Home - Mobile ",
@@ -48,7 +50,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Layers_-_Desktop_0_document_0_desktop.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_GeoNode_Layers_-_Desktop_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_Layers_-_Desktop_0_document_0_desktop.png",
         "selector": "document",
         "fileName": "geonode_regression_tests_GeoNode_Layers_-_Desktop_0_document_0_desktop.png",
         "label": "GeoNode Layers - Desktop",
@@ -63,7 +65,7 @@ report({
             "height": 0
           },
           "misMatchPercentage": "0.00",
-          "analysisTime": 132
+          "analysisTime": 251
         }
       },
       "status": "pass"
@@ -71,7 +73,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Layers_-_Mobile__0_document_0_mobile.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_GeoNode_Layers_-_Mobile__0_document_0_mobile.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_Layers_-_Mobile__0_document_0_mobile.png",
         "selector": "document",
         "fileName": "geonode_regression_tests_GeoNode_Layers_-_Mobile__0_document_0_mobile.png",
         "label": "GeoNode Layers - Mobile ",
@@ -86,7 +88,30 @@ report({
             "height": 0
           },
           "misMatchPercentage": "0.00",
-          "analysisTime": 77
+          "analysisTime": 228
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Layers_Filter_and_sort_-_Desktop_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_Layers_Filter_and_sort_-_Desktop_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "geonode_regression_tests_GeoNode_Layers_Filter_and_sort_-_Desktop_0_document_0_desktop.png",
+        "label": "GeoNode Layers Filter and sort - Desktop",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/layers/?limit=20&offset=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00",
+          "analysisTime": 248
         }
       },
       "status": "pass"
@@ -94,7 +119,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Maps_-_Desktop_0_document_0_desktop.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_GeoNode_Maps_-_Desktop_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_Maps_-_Desktop_0_document_0_desktop.png",
         "selector": "document",
         "fileName": "geonode_regression_tests_GeoNode_Maps_-_Desktop_0_document_0_desktop.png",
         "label": "GeoNode Maps - Desktop",
@@ -103,22 +128,20 @@ report({
         "expect": 0,
         "viewportLabel": "desktop",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": -62
+            "height": 0
           },
-          "misMatchPercentage": "0.00",
-          "analysisTime": 67
-        },
-        "diffImage": "../bitmaps_test/20190902-092534/failed_diff_geonode_regression_tests_GeoNode_Maps_-_Desktop_0_document_0_desktop.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Maps_-_Mobile__0_document_0_mobile.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_GeoNode_Maps_-_Mobile__0_document_0_mobile.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_Maps_-_Mobile__0_document_0_mobile.png",
         "selector": "document",
         "fileName": "geonode_regression_tests_GeoNode_Maps_-_Mobile__0_document_0_mobile.png",
         "label": "GeoNode Maps - Mobile ",
@@ -140,7 +163,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_People_-_Desktop_0_document_0_desktop.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_GeoNode_People_-_Desktop_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_People_-_Desktop_0_document_0_desktop.png",
         "selector": "document",
         "fileName": "geonode_regression_tests_GeoNode_People_-_Desktop_0_document_0_desktop.png",
         "label": "GeoNode People - Desktop",
@@ -154,8 +177,7 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "0.00",
-          "analysisTime": 57
+          "misMatchPercentage": "0.00"
         }
       },
       "status": "pass"
@@ -163,7 +185,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_People_-_Mobile__0_document_0_mobile.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_GeoNode_People_-_Mobile__0_document_0_mobile.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_People_-_Mobile__0_document_0_mobile.png",
         "selector": "document",
         "fileName": "geonode_regression_tests_GeoNode_People_-_Mobile__0_document_0_mobile.png",
         "label": "GeoNode People - Mobile ",
@@ -185,7 +207,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_SingleLayer_-_Desktop_0_document_0_desktop.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_GeoNode_SingleLayer_-_Desktop_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_SingleLayer_-_Desktop_0_document_0_desktop.png",
         "selector": "document",
         "fileName": "geonode_regression_tests_GeoNode_SingleLayer_-_Desktop_0_document_0_desktop.png",
         "label": "GeoNode SingleLayer - Desktop",
@@ -199,7 +221,8 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "0.00"
+          "misMatchPercentage": "0.00",
+          "analysisTime": 331
         }
       },
       "status": "pass"
@@ -207,7 +230,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_SingleLayer_-_Mobile__0_document_0_mobile.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_GeoNode_SingleLayer_-_Mobile__0_document_0_mobile.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_SingleLayer_-_Mobile__0_document_0_mobile.png",
         "selector": "document",
         "fileName": "geonode_regression_tests_GeoNode_SingleLayer_-_Mobile__0_document_0_mobile.png",
         "label": "GeoNode SingleLayer - Mobile ",
@@ -221,7 +244,8 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "0.00"
+          "misMatchPercentage": "0.00",
+          "analysisTime": 220
         }
       },
       "status": "pass"
@@ -229,7 +253,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/geonode_regression_tests_Create_Map_-_Desktop_0_document_0_desktop.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_Create_Map_-_Desktop_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_Create_Map_-_Desktop_0_document_0_desktop.png",
         "selector": "document",
         "fileName": "geonode_regression_tests_Create_Map_-_Desktop_0_document_0_desktop.png",
         "label": "Create Map - Desktop",
@@ -243,17 +267,15 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "23.93",
-          "analysisTime": 62
-        },
-        "diffImage": "../bitmaps_test/20190902-092534/failed_diff_geonode_regression_tests_Create_Map_-_Desktop_0_document_0_desktop.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Layer_Upload_-_Desktop_0_document_0_desktop.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_GeoNode_Layer_Upload_-_Desktop_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_Layer_Upload_-_Desktop_0_document_0_desktop.png",
         "selector": "document",
         "fileName": "geonode_regression_tests_GeoNode_Layer_Upload_-_Desktop_0_document_0_desktop.png",
         "label": "GeoNode Layer Upload - Desktop",
@@ -275,7 +297,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Layer_Upload_-_Mobile__0_document_0_mobile.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_GeoNode_Layer_Upload_-_Mobile__0_document_0_mobile.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_Layer_Upload_-_Mobile__0_document_0_mobile.png",
         "selector": "document",
         "fileName": "geonode_regression_tests_GeoNode_Layer_Upload_-_Mobile__0_document_0_mobile.png",
         "label": "GeoNode Layer Upload - Mobile ",
@@ -297,7 +319,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_SingleLayer_metaWizard_-_Desktop_0_document_0_desktop.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_GeoNode_SingleLayer_metaWizard_-_Desktop_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_SingleLayer_metaWizard_-_Desktop_0_document_0_desktop.png",
         "selector": "document",
         "fileName": "geonode_regression_tests_GeoNode_SingleLayer_metaWizard_-_Desktop_0_document_0_desktop.png",
         "label": "GeoNode SingleLayer metaWizard - Desktop",
@@ -311,16 +333,17 @@ report({
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "0.00",
-          "analysisTime": 51
-        }
+          "misMatchPercentage": "0.43",
+          "analysisTime": 95
+        },
+        "diffImage": "../bitmaps_test/20191004-125900/failed_diff_geonode_regression_tests_GeoNode_SingleLayer_metaWizard_-_Desktop_0_document_0_desktop.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_SingleLayer_metaWizard_-_Mobile__0_document_0_mobile.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_GeoNode_SingleLayer_metaWizard_-_Mobile__0_document_0_mobile.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_SingleLayer_metaWizard_-_Mobile__0_document_0_mobile.png",
         "selector": "document",
         "fileName": "geonode_regression_tests_GeoNode_SingleLayer_metaWizard_-_Mobile__0_document_0_mobile.png",
         "label": "GeoNode SingleLayer metaWizard - Mobile ",
@@ -329,20 +352,22 @@ report({
         "expect": 0,
         "viewportLabel": "mobile",
         "diff": {
-          "isSameDimensions": true,
+          "isSameDimensions": false,
           "dimensionDifference": {
-            "width": 0,
+            "width": -5,
             "height": 0
           },
-          "misMatchPercentage": "0.00"
-        }
+          "misMatchPercentage": "25.92",
+          "analysisTime": 254
+        },
+        "diffImage": "../bitmaps_test/20191004-125900/failed_diff_geonode_regression_tests_GeoNode_SingleLayer_metaWizard_-_Mobile__0_document_0_mobile.png"
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Remote_Service__Desktop_0_document_0_desktop.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_GeoNode_Remote_Service__Desktop_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_Remote_Service__Desktop_0_document_0_desktop.png",
         "selector": "document",
         "fileName": "geonode_regression_tests_GeoNode_Remote_Service__Desktop_0_document_0_desktop.png",
         "label": "GeoNode Remote Service – Desktop",
@@ -364,7 +389,7 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Remote_Service_-_Mobile__0_document_0_mobile.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_GeoNode_Remote_Service_-_Mobile__0_document_0_mobile.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_Remote_Service_-_Mobile__0_document_0_mobile.png",
         "selector": "document",
         "fileName": "geonode_regression_tests_GeoNode_Remote_Service_-_Mobile__0_document_0_mobile.png",
         "label": "GeoNode Remote Service - Mobile ",
@@ -386,12 +411,58 @@ report({
     {
       "pair": {
         "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Documents__Desktop_0_document_0_desktop.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_GeoNode_Documents__Desktop_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_Documents__Desktop_0_document_0_desktop.png",
         "selector": "document",
         "fileName": "geonode_regression_tests_GeoNode_Documents__Desktop_0_document_0_desktop.png",
         "label": "GeoNode Documents – Desktop",
         "misMatchThreshold": 0.1,
         "url": "http://localhost:8000/documents/?limit=20&offset=0",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": false,
+          "dimensionDifference": {
+            "width": 0,
+            "height": -154
+          },
+          "misMatchPercentage": "9.77",
+          "analysisTime": 332
+        },
+        "diffImage": "../bitmaps_test/20191004-125900/failed_diff_geonode_regression_tests_GeoNode_Documents__Desktop_0_document_0_desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Documents_should_show_Login-_Mobile__0_document_0_mobile.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_Documents_should_show_Login-_Mobile__0_document_0_mobile.png",
+        "selector": "document",
+        "fileName": "geonode_regression_tests_GeoNode_Documents_should_show_Login-_Mobile__0_document_0_mobile.png",
+        "label": "GeoNode Documents (should show Login)- Mobile ",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/documents/?limit=20&offset=0",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Manage_Styles__Desktop_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_Manage_Styles__Desktop_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "geonode_regression_tests_GeoNode_Manage_Styles__Desktop_0_document_0_desktop.png",
+        "label": "GeoNode Manage Styles – Desktop",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/gs/geonode:san_andres_y_providencia_poi/style/manage",
         "expect": 0,
         "viewportLabel": "desktop",
         "diff": {
@@ -407,13 +478,13 @@ report({
     },
     {
       "pair": {
-        "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Documents_-_Mobile__0_document_0_mobile.png",
-        "test": "../bitmaps_test/20190902-092534/geonode_regression_tests_GeoNode_Documents_-_Mobile__0_document_0_mobile.png",
+        "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Manage_Styles_-_Mobile__0_document_0_mobile.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_Manage_Styles_-_Mobile__0_document_0_mobile.png",
         "selector": "document",
-        "fileName": "geonode_regression_tests_GeoNode_Documents_-_Mobile__0_document_0_mobile.png",
-        "label": "GeoNode Documents - Mobile ",
+        "fileName": "geonode_regression_tests_GeoNode_Manage_Styles_-_Mobile__0_document_0_mobile.png",
+        "label": "GeoNode Manage Styles - Mobile ",
         "misMatchThreshold": 0.1,
-        "url": "http://localhost:8000/documents/?limit=20&offset=0",
+        "url": "http://localhost:8000/gs/geonode:san_andres_y_providencia_poi/style/manage",
         "expect": 0,
         "viewportLabel": "mobile",
         "diff": {
@@ -423,6 +494,73 @@ report({
             "height": 0
           },
           "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Inbox_-_Desktop_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_Inbox_-_Desktop_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "geonode_regression_tests_GeoNode_Inbox_-_Desktop_0_document_0_desktop.png",
+        "label": "GeoNode Inbox - Desktop",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/messages/inbox/",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Inbox_-_Mobile__0_document_0_mobile.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_Inbox_-_Mobile__0_document_0_mobile.png",
+        "selector": "document",
+        "fileName": "geonode_regression_tests_GeoNode_Inbox_-_Mobile__0_document_0_mobile.png",
+        "label": "GeoNode Inbox - Mobile ",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/messages/inbox/",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/geonode_regression_tests_GeoNode_Monitoring_-_Desktop_0_document_0_desktop.png",
+        "test": "../bitmaps_test/20191004-125900/geonode_regression_tests_GeoNode_Monitoring_-_Desktop_0_document_0_desktop.png",
+        "selector": "document",
+        "fileName": "geonode_regression_tests_GeoNode_Monitoring_-_Desktop_0_document_0_desktop.png",
+        "label": "GeoNode Monitoring - Desktop",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/monitoring/#/",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.03",
+          "analysisTime": 198
         }
       },
       "status": "pass"
